@@ -1,0 +1,27 @@
+#header{
+  background-color: rgb(222, 72, 24);
+  text-align: center;
+  border: solid 1px black;
+}
+.profile{
+  background-color: rgb(238, 155, 69);
+}
+.profile:hover{
+  background-color: rgb(167, 66, 26);
+}
+.profile>a{
+  text-decoration: none;
+}
+#network{
+background-color: rgb(88, 141, 249);
+padding: 20px;
+}
+#sugerencias>ul{
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#sugerencias li a{
+  text-decoration: none;
+  display: block;
+}
