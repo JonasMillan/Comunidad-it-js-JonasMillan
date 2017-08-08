@@ -1,0 +1,92 @@
+body{
+font-family: 'Roboto', sans-serif;
+background-color:white;
+}
+h1{
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(255,255,255, 0.7);
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ nav li a{
+  display: block;
+  width: 90px;
+  text-decoration: none;
+  color: black;
+}
+.header nav li{
+  style="float:right"
+}
+.header nav li a:hover{
+  background-color: rgb(62, 64, 64);
+}
+nav li{
+  display: inline;
+  float: left;
+}
+.header nav ul{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(4, 4, 4, 0.86);
+}
+h1{
+  font-size: 70px;
+}
+body{
+  width: 100%;
+  margin: auto;
+  top: 30%;
+  position: fixed;
+}
+.body{
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body nav ul li a{
+  background-color: rgb(115, 17, 40);
+  text-align: center;
+  border-radius: 32px;
+  margin: 20px;
+  padding: 15px;
+}
+.footer nav ul{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(4, 4, 4, 0.64);
+}
+html, body{
+  height: 100vh;
+}
+body{
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+  background-position: center center;
+  overflow-y: hidden;
+}
+.footer nav ul a{
+    color: rgb(222, 223, 224);
+}
+.header nav ul a{
+    color: rgb(222, 223, 224);
+}
+.body nav ul a{
+    color: rgb(222, 223, 224);
+    font-weight: bold;
+}
