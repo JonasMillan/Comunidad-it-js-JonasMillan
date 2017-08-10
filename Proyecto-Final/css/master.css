@@ -54,12 +54,11 @@ body{
   justify-content: center;
 }
 .body nav ul li a{
-  background-color: rgb(115, 17, 40);
+  /*background-color: rgba(65, 62, 63, 0.87);*/
   text-align: center;
-  border-radius: 32px;
   margin: 20px;
   padding: 15px;
-}
+  width: 32vh;}
 .footer nav ul{
   position: fixed;
   bottom: 0;
@@ -89,4 +88,9 @@ body{
 .body nav ul a{
     color: rgb(222, 223, 224);
     font-weight: bold;
+    transition: 350ms;
+    border-radius: 20px;
+}
+.body nav ul li a:hover{
+background-color: rgba(4, 4, 4, 0.64);
 }
