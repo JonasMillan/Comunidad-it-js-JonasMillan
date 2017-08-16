@@ -73,12 +73,7 @@ body{
 html, body{
   height: 100vh;
 }
-body{
-  background-image: url(../img/fondo.jpg);
-  background-size: cover;
-  background-position: center center;
-  overflow-y: hidden;
-}
+
 .footer nav ul a{
     color: rgb(222, 223, 224);
 }
