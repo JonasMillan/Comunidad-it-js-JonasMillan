@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ej 11</title>
+  </head>
+  <body>
+    <script>
+      let usuario,password,mensaje;
+      usuario = prompt('ingre usuario')
+      password = prompt('ingre pass')
+      mensaje=`bienvenido ${usuario}`
+      alert(mensaje)
+      function pregunta() {
+        let con = confirm(`quieres seguir logeado?`)
+        if (con === true) {
+          alert('ok')
+        }else {
+          alert('sesion MURIO')
+        }
+      }
+      setTimeout(pregunta,5000)
+
+    </script>
+  </body>
+</html>

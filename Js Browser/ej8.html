@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ej 8</title>
+  </head>
+  <body>
+    <script>
+    var mensj = true;
+    var result=0;
+    var contador=0;
+       while (mensj) {
+        var num = parseInt(prompt('ingresa tu numero: '));
+        mensj = confirm('seguir sumando?');
+        result = result + num;
+        contador++;
+        }
+        console.log(result,contador);
+      alert(result/contador)
+    </script>
+  </body>
+</html>
