@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ejercicio 11</title>
+  </head>
+  <body>
+    <script>
+    let usua =  prompt('ingrese su Usuario');
+    let pass =  prompt('ingrese su password');
+    alert(`Bienvenido ${usua}`);
+    let quiereSeguir = function () {
+      let conf = confirm(`${usua} quiere seguir ?`)
+      if (conf ==true) {
+        alert('renovamos su sesion');
+      }else {
+        alert('caduco su sesion');
+      }
+    }
+    setTimeout(quiereSeguir,10000);
+    </script>
+  </body>
+</html>

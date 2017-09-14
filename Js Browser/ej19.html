@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Establecer Atributos</title>
+  <style>
+    .negrita {
+      font-weight: bold;
+    }
+    .tachado {
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    window.onload = function () {
+      let title = document.getElementById('principal');
+      let divisor = document.querySelector('div');
+      title.setAttribute('class','tachado');
+      divisor.setAttribute('class','negrita');
+    }
+  </script>
+  <h1 id="principal">Jugando con atributos</h1>
+  <div>De a poco vamos teniendo control sobre nuestros documentos!!!</div>
+</body>
+</html>
