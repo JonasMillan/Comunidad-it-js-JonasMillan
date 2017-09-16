@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Todo ECMAScript Baby!!</title>
+</head>
+<body>
+  <script>
+    const arr = [];
+    for (var i = 0; i <= 1000; i++) {
+      arr.push(i);
+    }
+    const ul = document.createElement('ul');
+    arr.forEach(function (numero) {
+      const li = document.createElement('li');
+      li.innerHTML = `item ${numero}`;
+      ul.appendChild(li);
+    })
+    document.body.appendChild(ul);
+  </script>
+</body>
+</html>

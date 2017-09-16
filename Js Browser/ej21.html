@@ -16,7 +16,13 @@
 </head>
 <body>
   <script>
-    const elemntoLi = document.querySelector('li');
+  window.onload = function () {
+    const ul = document.querySelector('ul');
+    const li = ul.children;
+    console.log(li);
+    li[0].setAttribute('class','naranja');
+    li[0].nextElementSibling.setAttribute('class','rojo');
+  }
   </script>
   <ul>
     <li>Item 1</li>

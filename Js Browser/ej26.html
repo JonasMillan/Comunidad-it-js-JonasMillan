@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Todo ECMAScript Baby!!</title>
+</head>
+<body>
+  <script>
+  window.onload = function () {
+    const body = document.querySelector('body');
+    const arr = ['nombre1','nombre2','nombre3','nombre4','nombre5'];
+    const ul = document.createElement('ul');
+    arr.forEach(function(nombre){
+      var li = document.createElement(li);
+      li.innerHTML=nombre;
+      ul.appendChild(li)
+    });
+    body.appendChild(ul);
+  }
+
+  </script>
+</body>
+</html>

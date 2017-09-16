@@ -62,3 +62,46 @@ function findShort(str){
   let min =Math.min.apply(null, arr);
   return min;
 }
+
+function checkCoupon(enteredCode, correctCode, currentDate, expirationDate){
+    let today = Date.parse(currentDate);
+    let exp = Date.parse(expirationDate);
+
+
+    if (enteredCode == correctCode) {
+      if (today<exp) {
+        return true;
+      }
+      else {
+        return false;
+      }
+    }else {
+      return false;
+    }
+}
+
+var Kata;
+
+Kata = (function() {
+ function Kata() {}
+
+ Kata.getVolumeOfCuboid = function(length, width, height) {
+   let volume = length*width*height;
+ };
+
+ return Kata;
+
+})();
+
+function squareDigits(num){
+var str= num.toString()
+var arr=[];
+var cuadrado;
+var str;
+for (var i = 0; i < str.length; i++) {
+  cuadrado = str[i]*str[i];
+  arr.push(cuadrado);
+}
+  var str=arr.toString();
+  return paseInt(str);
+}
