@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prductos</title>
+  </head>
+  <body>
+    <script>
+      window.onload= function () {
+        const ul = document.querySelector('ul');
+        for (var i = 0; i <= 7; i++) {
+          var li = ul.children.item(i);
+          ul.removeChild(li);
+        }
+      }
+    </script>
+    <ul>
+      <li>Bananas</li>
+      <li>Manzanas</li>
+      <li>Peras</li>
+      <li>Huevos</li>
+      <li>Tomates</li>
+      <li>Lechuga</li>
+      <li>Leche</li>
+    </ul>
+  </body>
+</html>
